@@ -1,6 +1,7 @@
-#Write a program to input two strings and display them concatenated with a space between.
-str1=input("frist string:")
-str2=input("second string:")
-result=str1+" "+str2
-print(result)
+# Write a program to find the factorial of a number using a loop.
 
+num = int(input("Enter a number: "))
+factorial = 1
+for i in range(1, num + 1):
+    factorial *= i
+print(factorial)
