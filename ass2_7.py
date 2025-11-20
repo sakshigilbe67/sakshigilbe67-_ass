@@ -1,7 +1,6 @@
-# Write a program to find the factorial of a number using a loop.
+#Write a program to print the multiplication table of a number using a loop
+num=int(input("enter the number:"))
 
-num = int(input("Enter a number: "))
-factorial = 1
-for i in range(1, num + 1):
-    factorial *= i
-print(factorial)
+for i in range (1,11):
+    table=num*i
+    print(table)
